@@ -1,0 +1,31 @@
+# 密钥与环境变量
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 构建产物
+dist/
+build/
+*.zip
+
+# 运行产物（证明页面图片、清单、输出文档，含个人隐私，切勿提交）
+extracted/
+out/
+*.png
+!docs/*.png
+ocr_hits*.json
+manifest.json
+综测证明汇总*.docx
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
